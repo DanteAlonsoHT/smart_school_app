@@ -1,0 +1,150 @@
+body {
+  font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2E3047;
+  padding-bottom: 3rem;
+}
+
+section {
+  background-color: #fff;
+  min-height: 512px;
+  min-width: 320px;
+  max-width: 720px;
+  border-radius: 0 3rem 0 3rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem auto 2rem auto;
+  font-weight: 600;
+  color: #333;
+  font-size: 26px;
+}
+
+input, select {
+  border-radius: 1rem;
+  border: none;
+  padding: 0.45rem 1rem;
+  margin: 0.5rem auto;
+  font-size: 16px;
+  background-color: #2e304771;
+  color: #fff;
+  display: block;
+  min-width: 256px;
+  max-width: 300px;
+}
+
+.light-placeholder {
+  color: #eee;
+}
+
+.width-fit {
+  min-width: 0px;
+  max-width: -webkit-fill-available;
+}
+
+button {
+  border-radius: 1rem;
+  border: none;
+  padding: 0.45rem 1rem;
+  margin: 1rem auto;
+  font-size: 16px;
+  background-color: #3BBA9C;
+  color: #fff;
+  display: block;
+  min-width: 178px;
+}
+
+nav {
+  color: #fff;
+  font-size: 18px;
+  margin: 1rem;
+}
+
+a:hover,
+button:hover,
+select:hover,
+.custom-file-upload:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+input:focus {
+  outline: none;
+}
+
+table {
+  border: 1px solid #3bba9c46;
+  border-radius: 0rem 1rem 0 1rem;
+  margin: 1rem auto;
+  max-height: 58px;
+  text-align: center;
+  max-height: 258px;
+  overflow-y: scroll;
+}
+
+
+table thead tr th {
+  background-color: #3bba9cd9;
+  color: #fff;
+  padding: 0.65rem;
+  font-size: 16px;
+}
+
+table tbody tr td {
+  padding: 0.35rem;
+}
+
+table tbody tr:nth-child(2n) {
+  font-weight: 600;
+  background-color: #3bba9c5e;
+}
+
+table tbody tr {
+  text-align: center;
+}
+
+table tbody tr:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3BBA9C;
+  border-radius: 1rem;
+}
+
+.custom-file-upload {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: none;
+  color: #eee;
+  background-color:#2E3047;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  min-width: 256px;
+  max-width: 300px;
+}

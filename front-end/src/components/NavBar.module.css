@@ -1,0 +1,20 @@
+.navContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: var(--color-pink-medium-one);
+  margin: 0 auto;
+  max-width: 720px;
+  z-index: 5;
+}
+
+.navIcon:hover {
+  opacity: 70%;
+}
+
+.navLink {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: var(--color-light);
+}

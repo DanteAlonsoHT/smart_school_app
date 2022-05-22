@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  z-index: -1;
+}
+
+.position-absolute {
+  position: absolute;
+  z-index: 2;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
